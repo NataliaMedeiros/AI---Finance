@@ -1,0 +1,6 @@
+.venv/
+.env
+
+# Real financial data
+data/*.csv
+!data/sample.csv
