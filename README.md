@@ -19,15 +19,18 @@ Debit
 Credit
 Account Number
 IBAN
+```
 
 while another may provide:
 
+```text
 Date
 Name / Description
 Debit/Credit
 Amount (EUR)
 Transaction Type
 Notifications
+```
 
 The goal of this project is to build a robust data pipeline that converts these different formats into a standardized internal schema:
 date
@@ -46,6 +49,7 @@ is intentionally excluded from the standardized dataset.
 
 Project Architecture
 
+```text
 The planned architecture is:
 Bank Statement
       │
@@ -73,6 +77,7 @@ Bank Statement
 ┌───────────────────────┐
 │ Analysis / Tools / AI │
 └───────────────────────┘
+```
 
 The project is being developed incrementally, with a focus on clear separation of responsibilities between each layer.
 
